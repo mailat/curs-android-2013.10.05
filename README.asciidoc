@@ -1,0 +1,33 @@
+= Curs Android pentru incepatori/avansati
+
+05 October 2013
+
+*Marius Mailat*, +<marius.mailat@gmail.com>+
+http://appsrise.com[Appsrise SRL, Appseleration GmBH]
+
+Cursul se bazeaza pe materialul de curs http://www.androider.ro/cursuri-android
+
+== Materialele de curs
+
+Poti clona acest repository folosind comanda:
+
+	git clone git@github.com:mailat/curs-android-2013.10.05.git
+
+sau
+	poti descarca o arhiva folosind linkul de mai jos:
+  
+	https://github.com/mailat/curs-android-2013.10.05/archive/master.zip
+
+== Legaturi interesante
+
+Git book: http://git-scm.com/book
+
+Marakana Java Fundamentals Tutorial: http://marakana.com/bookshelf/java_fundamentals_tutorial/index.html
+
+Introduction to Eclipse - Driving Java Productivity: http://mrkn.co/s/video_introduction_to_eclipse_driving_java_productivity,595/index.html
+
+Java Tutorial http://docs.oracle.com/javase/tutorial/
+
+Appsrise - http://www.appsrise.com
+
+Appseleration - http://www.appseleration.com
