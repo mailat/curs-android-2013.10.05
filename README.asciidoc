@@ -28,6 +28,8 @@ Introduction to Eclipse - Driving Java Productivity: http://mrkn.co/s/video_intr
 
 Java Tutorial http://docs.oracle.com/javase/tutorial/
 
+Eclipse settings - http://blog.xam.dk/?p=58
+
 Appsrise - http://www.appsrise.com
 
 Appseleration - http://www.appseleration.com
