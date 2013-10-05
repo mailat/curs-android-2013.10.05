@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Testam interactiunea cu diferite controale." />
+	<Button
+	    android:id="@+id/buttonTest1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testam onclick()" />
+
+	<Button
+	    android:id="@+id/buttonTest2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testam onLongClick()" />
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editTest3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"            
+            android:ems="10" >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adauga text si apasa aici."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>     
+    
+	<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="reditectListViewActivity"
+        android:text="Testam onCreateContextMenu()" />   
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/editTest4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="0"
+			android:inputType="number" 
+			android:digits="1234567890">
+        </EditText>
+
+        <TextView
+            android:id="@+id/textViewTest5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valoarea live: 0"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>     	
+		
+</LinearLayout>
