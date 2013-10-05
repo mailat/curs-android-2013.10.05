@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/textBigRed"
+        android:text="Text mare roșu" />
+
+    <Button 
+		style="@style/buttonBigRed"
+        android:text="Acesta este un buton rosu mare." />
+    
+    <Button 
+		style="@style/buttonBigBlue"
+        android:text="Acesta este un buton albastru mare." />    
+
+    <Button 
+		style="@style/buttonBigBlue.Italic"
+        android:text="Acesta este un buton albastru italic." />    
+        
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salveză" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Renunță" />
+    </LinearLayout>
+
+</LinearLayout>

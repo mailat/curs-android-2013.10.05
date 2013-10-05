@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="textBigRed">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>\
+		<item name="android:padding">2dip</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+		<item name="android:textColor">#FF0000</item>
+		<item name="android:typeface">monospace</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	
+	<style name="buttonBigRed" parent="@android:style/Widget.Button">
+		<item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+		<item name="android:textSize">17.0sp</item>
+		<item name="android:textColor">#FF0000</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:gravity">center</item>
+		<item name="android:paddingLeft">20.0dip</item>
+		<item name="android:paddingTop">7.0dip</item>
+		<item name="android:paddingRight">20.0dip</item>
+		<item name="android:paddingBottom">10.0dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">52.0dip</item>
+		<item name="android:layout_marginBottom">12.0dip</item>
+		<item name="android:maxLines">1</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:drawablePadding">15.0dip</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+	</style>
+    
+	<style name="buttonBigBlue" parent="@style/buttonBigRed">
+		<item name="android:textColor">#0099CC</item>
+	</style>	
+
+	<style name="buttonBigBlue.Italic">
+		<item name="android:textStyle">italic</item>
+	</style>	
+
+</resources>
