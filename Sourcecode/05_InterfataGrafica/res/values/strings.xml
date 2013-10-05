@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="input">Scrie numele unui oraș</string>
+    <string name="input_button">Afișează vremea</string>
+    <string name="app_name">05_UserInterface</string>
+
+</resources>

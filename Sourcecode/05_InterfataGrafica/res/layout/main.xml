@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input" />
+
+    <EditText
+        android:id="@+id/editOras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/cauta"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/input_button" />
+        
+            <Button
+                android:id="@+id/cauta2"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:text="@string/input_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    
+        <Button
+            android:id="@+id/buttonTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:text="" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" />
+
+    </LinearLayout>
+
+</LinearLayout>
