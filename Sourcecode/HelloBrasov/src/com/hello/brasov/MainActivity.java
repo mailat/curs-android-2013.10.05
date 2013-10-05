@@ -2,10 +2,13 @@ package com.hello.brasov;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.Application;
 import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -19,8 +22,14 @@ public class MainActivity extends Activity {
 	
 	public void redirectClick (View v)
 	{
+		//valoarea din EditText
+		EditText numeOras = (EditText) this.findViewById(R.id.numeOras);
+		
+		Toast.makeText(this, numeOras.getText().toString(), Toast.LENGTH_LONG).show();
+		
 		//redirectare automat catre a doua activitate
-		Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+		Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
+		intent.putExtra("oras", numeOras.getText().toString());
 		startActivity(intent);
 	}
 	
